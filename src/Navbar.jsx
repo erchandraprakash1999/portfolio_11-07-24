@@ -24,6 +24,15 @@ export const Navbar = () => {
                 <Link className="nav-link " to="education">Education</Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link " to="employment">Employment</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link " to="portfolio">Portfolio</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link " to="awards">Awards</Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link " to="contact">Contact</Link>
               </li>
           

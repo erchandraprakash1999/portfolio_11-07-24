@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from 'react-router-dom';
 import img3 from "./assets/man_3.jpg"
-import { red } from "@mui/material/colors";
+// import { red } from "@mui/material/colors";
 // import img1 from "./assets/man.jpg"
 export const Education = () => {
     return (
@@ -59,8 +59,8 @@ export const Education = () => {
                                     2011-2012
                                 </p>
                                 {/* <p className="card-text text-danger mx-5" style={{ fontSize: '1.5rem' }}>We're Creative Minds</p> */}
-                                <button className="btn btn-danger px-4 py-1 mt-3" style={{marginLeft:'5rem' }}>View Resume </button>
-                            </div>
+                                {/* <button className="btn btn-danger px-4 py-1 mt-3 mb-2" style={{ fontSize: '0.8rem', marginLeft: '4.6rem' }}><b>View Portfolio</b></button> */}
+                                </div>
                         </div>
                     </div>
                 </div>

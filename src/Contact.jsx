@@ -28,13 +28,6 @@ export const Contact = () => {
                                     <IconButton aria-label="location">
                                         <LocationOnIcon />
                                     </IconButton>
-                                    {/* <IconButton aria-label="message">
-                                        <MessageIcon />
-                                    </IconButton>
-                                    <IconButton aria-label="call">
-                                        <CallIcon />
-                                    </IconButton> */}
-                                    {/* <FontAwesomeIcon icon={faPhone} size="2x" style={{ color: '#25D366' }} /> */}
                                     22/9 Vishnupuri colony, Kanpur, Uttar Pradesh.
                                 </p>
                                 <p className="card-text px-5" style={{ fontSize: '1.5rem' }}>
@@ -55,7 +48,7 @@ export const Contact = () => {
                                     <input className="p-2 mt-3" type="text" placeholder=" * YOUR INTERESET IN" style= {{width: '400px', height: '60px'}}/>
                                     <input className="p-2 mt-3" type="text" placeholder=" * YOUR MESSAGE" style= {{width: '400px', height: '100px'}}/>
                                 </form>
-                                    <button className="btn btn-danger mx-5 mt-3" style={{height: '30px'}}>Submit</button>
+                                <button className="btn btn-danger px-4 py-1 mt-3" style={{ fontSize: '0.8rem', marginLeft: '3rem' }}><b>Submit</b></button>
                             </div>
                         </div>
                     </div>
